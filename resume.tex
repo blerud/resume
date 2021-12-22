@@ -1,0 +1,60 @@
+\documentclass{resume}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage{hyperref}
+
+\name{Lawrence Liu}
+\address{ lliu301@gmail.com \\ (408) 685 1368 \\ \href{https://github.com/blerud}{github.com/blerud}}
+
+\def\nameskip{\bigskip}
+\def\sectionskip{\medskip}
+
+\begin{document}
+  
+  \begin{rSection}{Experience}
+  
+    \begin{rSubsection}{IMC Trading}{August 2019 - Present}{Software Engineer}{Chicago, IL}
+      \item Index options and FICC options desks
+      \item Implemented desk specific low latency trading strategies across products traded by the desk
+      \item Working on analysis systems and infrastructure for parameter based analysis of our trading execution and strategies
+      \item Developed and optimized application that handles billions of events per instance per trading day and links together events across multiple streams
+      \item Drove the development and deployment of an analysis application that consumes hundreds of millions of records per trading day from kafka across multiple topics, synchronizes the topics, and runs business logic
+    \end{rSubsection}
+  
+    \begin{rSubsection}{Amazon}{May 2018 - August 2018}{Software Development Engineer (SDE) Intern}{Seattle, WA}
+      \item AWS Payments \& Fraud, Payments Processing team
+      \item Developed internal tool for management of invoice, transaction, and AWS account details, supported 900+ customer service agents worldwide and launch of product in EMEA region
+      \item Developed service trace system to track payment transactions as they are processed through different payment creation and processing services
+      \item Developed service activity interceptor to easily integrate trace system into existing services
+    \end{rSubsection}
+
+    \begin{rSubsection}{Fidelity Investments}{May 2017 - August 2017}{Technical Intern}{Westlake, TX}
+      \item Developed internal application to create new and manage existing software defects
+      \item Worked with Python for service backend, React JS for front end
+    \end{rSubsection}
+    
+    \begin{rSubsection}{TP LINK}{May 2015 - August 2015}{SDE Intern}{San Jose, CA}
+      \item Developed tool to monitor negative reviews on products and monitor review trends
+    \end{rSubsection}
+  
+  \end{rSection}
+  
+  \begin{rSection}{Education}
+    {\bf University of Maryland, College Park} \hfill {2016 - 2019} \\ 
+    { B.S. in Computer Science}
+  \end{rSection}
+  
+  \begin{rSection}{Projects}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+      Lendbot & Extensible discord bot in Python \\
+    \end{tabular}
+  \end{rSection}
+  
+  \begin{rSection}{Skills}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+      Languages & Java, Python, Javascript, C, OCaml \\
+    \end{tabular}
+  \end{rSection}
+
+\end{document}
+
